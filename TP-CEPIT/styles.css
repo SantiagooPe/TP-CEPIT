@@ -1,0 +1,108 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Navbar*/
+
+nav {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul .titulo {
+    color: yellow;
+    font-weight: bold;
+    font-size: 24px;
+    text-shadow: 2px 2px 0px red;
+    margin: 0 auto;
+}
+
+
+.contenido {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+    flex-grow: 1;
+}
+
+.contenido .texto {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.contenido .imagen {
+    flex: 1;
+    text-align: center;
+}
+
+.contenido .imagen img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilos para el footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    margin-top: auto;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 10px 0 0;
+    padding: 0;
+}
+
+footer ul li {
+    margin: 0 15px;
+}
+
+footer ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Estilo texto título e historia */ 
+
+h1 {
+    color: #333;
+}
+
+p {
+    color: #555;
+    font-size: 20px;
+}
+
+.texto.foot {
+    color: white;
+}

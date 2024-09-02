@@ -1,0 +1,100 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: gray;
+  /* imagen de fondo*/
+  background-image: url('el\ chino.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+header, footer {
+  width: 100%;
+  background-color: #333;
+  text-align: center;
+  padding: 10px 0;
+}
+
+#container {
+  width: 90%;
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: rgba(255, 255, 255, 0.7);/* Fondo blanco con un poco de transparencia*/
+  
+}
+
+/*inputs*/
+
+form label,
+form input,
+form textarea,
+form button {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+/*Elementos se muestren como bloques
+   (display: block), ocupen el 100% del ancho disponible (width: 100%), 
+   y un margen inferior de 10 píxeles (margin-bottom: 10px).*/
+  
+
+form button {
+  margin-top: 10px;
+}
+
+/* Estilos para la navbar */
+nav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  background-color: #111;
+}
+
+/* Estilos para el footer */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+
+
